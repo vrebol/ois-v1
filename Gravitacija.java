@@ -4,7 +4,8 @@ public class Gravitacija{
         
         double a = gravit(1);
         System.out.println(a);
-        // Samo hiti not Scanner Sarah :)
+        // Samo hiti not Scanner Sarah :) 
+        //Minchia.. ne dela
     }
     
     private static double gravit(int vis){
@@ -12,6 +13,7 @@ public class Gravitacija{
         double r = 6.371*Math.pow(10,6); 
         double M = 5.972*Math.pow(10,24);
         double a;
+       
         a = (C*M) / ((r+vis)*(r+vis));
         return a;
     }
