@@ -1,12 +1,15 @@
+import java.util.Scanner;
 public class Gravitacija{
     public static void main(String[] args){
-        System.out.println("OIS je zakon!");
-        
-        
+       // System.out.println("OIS je zakon!");
+        Scanner sc = new Scanner(System.in);
+        int visina = sc.nextInt();
         double a = gravit(1);
        // System.out.println(a);
         // Samo hiti not Scanner Sarah :) 
         //Minchia.. ne dela
+        System.out.println(gravit(visina));
+        
     }
     
     private static double gravit(int vis){
@@ -19,12 +22,10 @@ public class Gravitacija{
         return a;
     }
         
-    System.out.println(gravit(vis));
-        System.out.println(a);
+   
         
 
     }
 
 
 
-}
