@@ -3,6 +3,9 @@ public class Gravitacija{
         System.out.println("OIS je zakon!");
         
         
+        System.out.println(v);
+        System.out.println(a);
+        
     }
 
 
