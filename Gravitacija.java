@@ -2,8 +2,9 @@ public class Gravitacija{
     public static void main(String[] args){
         System.out.println("OIS je zakon!");
         
+        
         double a = gravit(1);
-        System.out.println(a);
+       // System.out.println(a);
         // Samo hiti not Scanner Sarah :) 
         //Minchia.. ne dela
     }
@@ -16,6 +17,12 @@ public class Gravitacija{
        
         a = (C*M) / ((r+vis)*(r+vis));
         return a;
+    }
+        
+    System.out.println(gravit(vis));
+        System.out.println(a);
+        
+
     }
 
 
