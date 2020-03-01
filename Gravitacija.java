@@ -22,7 +22,10 @@ public class Gravitacija{
         return a;
     }
         
-   
+   private static void izpis(int vis){
+       System.out.println(vis);
+       System.out.println(gravit(vis));
+   }
         
 
     }
